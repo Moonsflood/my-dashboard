@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.App .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  background: rgba(29, 161, 242, 1);
+}
+
+.App .navbar .nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.App .navbar .nav-links > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  width: 450px;
+  margin-top: auto !important;
+  margin-left: auto;
+  border-radius: 15px;
+  background-color: #01579b;
+}
+
+.header {
+  margin-top: 50px !important;
+  background-color: #424242;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 28px;
+  border-radius: 15px;
+  font-family: 'Recursive', sans-serif;
+}
+
+.day {
+  padding: 15px;
+  color: whitesmoke;
+  font-family: 'Recursive', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.temp {
+  padding: 15px;
+  color: whitesmoke;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sunrise-sunset {
+  padding: 15px;
+  color: whitesmoke;
+  font-family: 'Recursive', sans-serif;
+  font-size: 16px;
+}
+
+.description {
+  padding: 15px;
+  color: whitesmoke;
+  font-family: 'Recursive', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text-center {
+  margin-top: 100px !important;
+}
+
+.calendar-container {
+  margin-top: 25px !important;
+}
+
+.p .text-center {
+  margin-top: auto !important;
+}
+
+.testing {
+  display: flex;
+}
