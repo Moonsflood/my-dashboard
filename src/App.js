@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import About from './About';
+import About from './components/about';
 import Shop from './components/Shop';
 import Nav from './Nav';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
