@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 import About from './About';
-import Shop from './Shop';
+import Shop from './components/Shop';
 import Nav from './Nav';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import { useEffect, useState } from 'react';
@@ -61,12 +61,13 @@ export default function App() {
       <h1 className='text-center'>React Calendar</h1>
 
       <div className='testing'>
-        <div className='calendar-container'>
-          <Calendar onChange={setDate} value={date} />
-        </div>
         <p className='text-center'>
           <span classname='bold'>Selected Date:</span> {date.toDateString()}
         </p>
+
+        <div className='calendar-container'>
+          <Calendar onChange={setDate} value={date} />
+        </div>
 
         {typeof data.main != 'undefined' ? (
           <Weather weatherData={data} />

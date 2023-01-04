@@ -88,17 +88,19 @@
   font-weight: 600;
 }
 
-.text-center {
+h1.text-center {
   margin-top: 100px !important;
 }
 
 .calendar-container {
   margin-top: 25px !important;
+  margin: 0;
+
+}
+p.text-center {
+  margin: 50 !important;
 }
 
-.p .text-center {
-  margin-top: auto !important;
-}
 
 .testing {
   display: flex;
